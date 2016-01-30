@@ -1,0 +1,346 @@
+	/*constant parameters*/
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	@font-face {
+		font-family: Azedo;
+		src: url("../fonts/Azedo-Bold.otf");
+	}
+	@font-face {
+		font-family: ProximaBold;
+		src: url("../fonts/proximanova-bold.otf");
+	}
+	@font-face {
+		font-family: Born;
+		src: url("../fonts/Born.otf");
+	}
+	@font-face {
+		font-family: Proximanovacond;
+		src: url("../fonts/proximanova-regular.otf");
+	}
+	@font-face {
+		font-family: SlimTony;
+		src: url("../fonts/SlimTony.otf");
+	}
+	.wrapper {
+		margin: 0 auto;
+		width: 1200px;
+	}
+	.clear {
+		clear: both;
+	}
+	/*header*/
+	
+	.header {
+		background-color: #fff;
+	}
+	.logo {
+		margin: 25px 90px;
+		float: left;
+	}
+	.slogan {
+		padding-left: 15px;
+		font-family: Azedo;
+		font-size: 34px;
+		line-height: 24px
+	}
+	.main-menu {
+		margin: 40px 90px;
+		float: right;
+	}
+	.main-menu ul li {
+		display: inline-block;
+		list-style-type: none;
+		padding-left: 25px;
+	}
+	.main-menu a {
+		text-decoration: none;
+		color: #000;
+		font-family: Proxima;
+		font-size: 15px;
+	}
+	/*main-logo-screen*/
+	
+	.main-logo-screen {
+		height: 700px;
+		background-image: url(../img/header-foto.png);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.main-screen-slogan > div:first-child {
+		padding-top: 260px;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: Proximanovacond;
+		font-weight: bold;
+		font-size: 50px;
+	}
+	.main-screen-slogan > div:last-child {
+		margin-top: 1px;
+		font-family: SlimTony;
+		font-size: 90px;
+		color: #fff;
+		text-align: center;
+	}
+	/*about*/
+	
+	.about {
+		padding-top: 90px;
+	}
+	.about-header {
+		padding-bottom: 20px;
+		font-family: Proxima;
+		font-size: 20px;
+		text-transform: uppercase;
+		border-bottom: 2px solid #ffdc19;
+	}
+	.about-content {
+		width: 100%;
+		padding-top: 50px;
+		clear: both;
+	}
+	.about-content-left {
+		width: 300px;
+		margin-right: 20px;
+		line-height: 30px;
+		float: left;
+		font-family: proximanovabold;
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+	.about-content-left span {
+		font-family: Proximanovacond;
+		font-size: 50px;
+		font-weight: bold;
+		color: #ffdc19;
+	}
+	.about-content-center {
+		width: 400px;
+		margin-right: 45px;
+		float: left;
+		font-family: Born;
+		font-size: 13px;
+		line-height: 20px;
+		color: #595959;
+	}
+	.about-content-reght {
+		width: 400px;
+		float: left;
+		font-family: Born;
+		font-size: 13px;
+		line-height: 20px;
+		color: #595959;
+	}
+	/*section3*/
+	
+	.central-screen {
+		padding-top: 90px;
+	}
+	.central-screen-content {
+		height: 580px;
+		background-image: url(../img/SplitShire_IMG_9950.png);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.central-screen-content h3 {
+		display: block;
+		margin-top: 230px;
+		margin-right: -145px;
+		border-bottom: 13px solid #ffdc19;
+		color: #fff;
+		font-family: Proximanovacond;
+		font-size: 47px;
+		line-height: 50px;
+		font-weight: bold;
+		transform: rotate(-90deg);
+		float: right;
+		text-transform: uppercase;
+	}
+	/*servises*/
+	
+	.servises {
+		padding-top: 90px;
+	}
+	.servises-header {
+		padding-bottom: 20px;
+		font-family: Proximanovacond;
+		font-size: 20px;
+		text-transform: uppercase;
+		border-bottom: 2px solid #ffdc19;
+	}
+	.servises-content {
+		width: 100%;
+		padding-top: 50px;
+	}
+	.servises-content h3 {
+		padding-bottom: 10px;
+		font-family: Proximanovacond;
+		color: #212121;
+		font-size: 40px;
+		line-height: 52px;
+	}
+	.heircut {
+		width: 245px;
+		float: left;
+		padding-right: 60px;
+		font-family: Born;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		color: #595959;
+	}
+	.shave {
+		width: 245px;
+		float: left;
+		padding-right: 60px;
+		font-family: Born;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		color: #595959;
+	}
+	.bead {
+		width: 245px;
+		float: left;
+		padding-right: 60px;
+		font-family: Born;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		color: #595959;
+	}
+	.spec {
+		width: 245px;
+		float: left;
+		font-family: Born;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		color: #595959;
+	}
+	/*lookbook*/
+	
+	.lookbook {
+		padding-top: 90px;
+	}
+	.lookbook-header {
+		padding-bottom: 20px;
+		font-family: Proxima;
+		font-size: 20px;
+		text-transform: uppercase;
+		border-bottom: 2px solid #ffdc19;
+	}
+	.lookbook-content {
+		padding-top: 50px;
+	}
+	/*reservations*/
+	
+	.reservations {
+		padding-top: 90px;
+	}
+	.reservations-header {
+		padding-bottom: 20px;
+		font-family: Proxima;
+		font-size: 20px;
+		text-transform: uppercase;
+		border-bottom: 2px solid #ffdc19;
+	}
+	.reservations-content {
+		width: 100%;
+		padding-top: 50px;
+		clear: both;
+	}
+	.left-side-reservation {
+		margin-right: 40px;
+		float: left;
+	}
+	.left-side-reservation input {
+		margin-bottom: 25px;
+		width: 380px;
+		height: 54px;
+		padding-left: 10px;
+		font-family: Born;
+		color: #595959;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	.left-side-reservation > input:last-child {
+		margin-bottom: 0px;
+	}
+	.right-side-reservation textarea {
+		width: 720px;
+		height: 306px;
+		padding-left: 10px;
+		resize: none;
+		font-family: Born;
+		color: #595959;
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.left-side-reservation .reserve-button {
+		width: 192px;
+		height: 54px;
+		background-color: #ffdc19;
+		font-family: Proximanovacond;
+		color: #fff;
+		border: none;
+		text-transform: uppercase;
+		outline: none;
+	}
+	/*map*/
+	
+	.map {
+		padding-top: 90px;
+	}
+	.map-content {
+		position: relative;
+		height: 582px;
+		background-image: url(../img/Layer%205.png);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.map-adress {
+		position: absolute;
+		top: 120px;
+		left: 625px;
+		width: 202px;
+		height: 173px;
+		background-color: #fff;
+	}
+	.triangle-down {
+		position: absolute;
+		top: 291px;
+		left: 720px;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 20px solid #fff;
+	}
+	.map-adress-font {
+		font-family: Azedo;
+		font-size: 34px;
+		text-align: center;
+	}
+	.map-adress-index {
+		margin: 18px 21px;
+		font-family: Born;
+		color: #595959;
+		line-height: 24px;
+		text-align: center;
+	}
+	/*footer*/
+	
+	.footer {
+		background-color: #212121;
+	}
+	.footer .logo {
+		color: #fff;
+	}
+	.footer .main-menu ul li a {
+		color: #fff;
+	}
